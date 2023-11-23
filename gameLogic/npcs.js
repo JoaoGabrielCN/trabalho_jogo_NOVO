@@ -113,9 +113,20 @@ var npcs = [{
     height: 100,
     quiz: {
         question: "Onde está localizado o clitóris?",
-        options: ["Na parte inferior do vestíbulo vulvar",  "Na parte interior da Vagina","Na parte mais superior do vestíbulo vulvar", "Mito"],
+        options: ["Na parte inferior do vestíbulo vulvar", "Na parte interior da Vagina", "Na parte mais superior do vestíbulo vulvar", "Mito"],
         correctAnswer: "Na parte mais superior do vestíbulo vulvar"
-    },respondido: false
+    }, respondido: false
+},
+{
+    x: 58000,
+    y: 502,
+    width: 59,
+    height: 100,
+    quiz: {
+        question: "Onde está localizado o clitóris?",
+        options: ["Na parte inferior do vestíbulo vulvar", "Na parte interior da Vagina", "Na parte mais superior do vestíbulo vulvar", "Mito"],
+        correctAnswer: "Na parte mais superior do vestíbulo vulvar"
+    }, respondido: false
 }
 ];
 

@@ -17,7 +17,7 @@ plataformaImg.src = "imagens/chao.png";
 
 var player = {
     x: 0,
-    y: 550,
+    y: 530,
     width: 50,
     height: 50,
     velocidade: 5,
