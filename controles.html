@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paginas.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function redirectToIndex() {
+            window.location.href = 'index.html ';
+        }
+        function redirectToJogo(){
+            window.location.href = "jogo.html";
+        }
+
+        function redirectToConteudo() {
+            window.location.href = 'conteudo.html';
+        }
+    </script>
+
+    <div class="close"><button onclick="redirectToIndex()">X</button></div>
+    
+    <div id = "container" align = "center">
+        <P id = "titulo"><strong><u>Controles do Jogo</u></strong></P>
+        <p class="text">A = andar para esquerda</p>
+        <p class="text">D = andar para direita</p>
+        <p class="text">W = pular</p>
+        <p class="text">Enter = interagir com os npcs</p>
+        <div class="button" onclick="redirectToJogo()">Jogar!</div>
+    </div>
+
+
+
+
+    
+</body>
+
+</html>
